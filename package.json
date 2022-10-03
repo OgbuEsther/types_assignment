@@ -1,0 +1,17 @@
+{
+  "name": "node_js",
+  "version": "1.0.0",
+  "description": "for node classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn --transpile-only ./prac.ts"
+  },
+  "author": "ESTHER",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "@types/node": "^18.7.23",
+    "prompt-sync": "^4.2.0"
+  }
+}
